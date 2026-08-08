@@ -1,0 +1,17 @@
+{
+  "name": "bloated-docker-app",
+  "version": "1.0.0",
+  "description": "Intentional Docker optimization challenge app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node -e \"console.log('tests placeholder')\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.29.0",
+    "jest": "^29.7.0"
+  }
+}
