@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-APP_DIR="/home/laborant/app"
-RESULTS_DIR="/home/laborant/results"
+APP_DIR="./"
+RESULTS_DIR="./results"
 mkdir -p "$RESULTS_DIR"
 
 fail() {
